@@ -1,0 +1,8 @@
+ollama
+opencv-python
+pytesseract
+spacy
+langchain
+langchain-core
+langchain-ollama
+scikit-learn
