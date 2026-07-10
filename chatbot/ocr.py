@@ -1,6 +1,7 @@
 import cv2
 import pytesseract
 import spacy
+import re
 
 def preprocess_and_ocr(file_path):
     """Preprocess the file and perform OCR, then lightly clean the text."""
