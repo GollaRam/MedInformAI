@@ -1,3 +1,7 @@
+import cv2
+import pytesseract
+import spacy
+
 def preprocess_and_ocr(file_path):
     """Preprocess the file and perform OCR, then lightly clean the text."""
     if not file_path.lower().endswith(('.png', '.jpg', '.jpeg')):
